@@ -3,3 +3,44 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-btn{
+    color: #fff;
+    text-decoration: none;
+    background-color: #DD0000;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.banner-section{
+    width: 80%;
+    background-color: #161616;
+    border-radius: 10px;
+    height: 500px;
+    justify-content: space-around;
+}
+
+.half-width{
+    width: 40%;
+    height: 100%;
+}
+
+h1{
+    color: #fff;
+    font-size: 50px;
+}
+
+header p{
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+header img{
+    height: 100%;
+}
