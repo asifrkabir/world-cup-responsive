@@ -128,11 +128,11 @@ aside>a{
 }
 
 .blog span{
-    margin-right: 10px;
+    margin-right: 30px;
 }
 
 .blog i{
-    margin-right: 10px;
+    margin-right: 5px;
     color: rgb(71, 71, 71);
 }
 
@@ -176,3 +176,82 @@ footer small {
 }
 
 /* Footer section end */
+
+/* -------- Media Queries Start -------- */
+
+@media only screen and (max-width: 768px) {
+    header{
+        width: 100%;
+    }
+
+    .banner-section{
+        text-align: center;
+        width: 90%;
+        flex-direction: column;
+        height: 100vh;
+        padding: 0 10px;
+    }
+
+    .banner-section h1{
+        font-size: 30px;
+    }
+
+    .banner-section p{
+        font-size: 15px;
+    }
+
+    .half-width{
+        width: 100%;
+    }
+
+    .banner-section img{
+        width: 80%;
+    }
+
+    .blog-section{
+        flex-direction: column;
+    }
+
+    .blog-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    aside{
+        background-color: #fff;
+    }
+    
+    aside>a{
+        margin: 10px 15px;
+        width: 100%;
+        border: 1px solid #161616;
+    }
+
+    aside>a:active{
+        border: none;
+    }
+
+    .footer-links ul{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    footer{
+        height: 100vh;
+    }
+    
+    footer ul li{
+        margin: 10px 20px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    
+}
+
+@media only screen and (min-width: 1024px) {
+    
+}
+
+/* -------- Media Queries End -------- */
