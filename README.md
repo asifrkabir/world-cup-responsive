@@ -1,2 +1,2 @@
 # Goal
-## Goal is a HTML and CSS page made responsive using simple media queries
+## Goal is an HTML and CSS landing page made responsive using simple media queries
