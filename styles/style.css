@@ -66,6 +66,10 @@ header img{
 
 /* Blog section start */
 
+main{
+    margin-bottom: 200px;
+}
+
 .blog-section{
     display: flex;
     width: 80%;
@@ -124,11 +128,51 @@ aside>a{
 }
 
 .blog span{
-    margin: 0 20px;
+    margin-right: 10px;
 }
 
 .blog i{
     margin-right: 10px;
+    color: rgb(71, 71, 71);
 }
 
 /* Blog section end */
+
+/* Footer section start */
+
+footer{
+    height: 400px;
+    background-color: #161616;
+}
+
+.footer-section{
+    flex-direction: column;
+    width: 100%;
+}
+
+footer h2{
+    color: #fff;
+    font-size: 40px;
+}
+
+hr{
+    width: 80%;
+    border: 1px solid rgb(156, 156, 156);
+    margin-bottom: 30px;
+}
+
+footer ul li{
+    list-style-type: none;
+    color: rgb(156, 156, 156);
+    margin: 0 20px;
+}
+
+.footer-socials{
+    font-size: 30px;
+}
+
+footer small {
+    color: rgb(156, 156, 156);
+}
+
+/* Footer section end */
