@@ -7,6 +7,7 @@ body{
 
 header{
     margin-bottom: 100px;
+    margin-top: 10px;
 }
 
 .container{
@@ -88,7 +89,17 @@ aside>a{
     width: 200px;
 }
 
+aside>a:active, aside>a:hover{
+    color: #fff;
+    text-decoration: none;
+    background-color: #DD0000;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
 .blog-container{
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -136,7 +147,77 @@ aside>a{
     color: rgb(71, 71, 71);
 }
 
+.view-btn{
+    margin-top: 10px;
+    display: none;
+}
+
 /* Blog section end */
+
+/* Match section start */
+
+.match-section{
+    display: flex;
+    width: 80%;
+}
+
+.match-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.match{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.match-text{
+    padding: 20px;
+}
+
+.match img{
+    margin-bottom: 20px;
+}
+
+.match a{
+    width: 20%;
+}
+
+.match p{
+    font-weight: 600;
+}
+
+.match span{
+    margin-right: 30px;
+}
+
+.match i{
+    margin-right: 5px;
+    color: rgb(71, 71, 71);
+}
+
+.flag-section{
+    padding: 20px;
+}
+
+.flag-section img{
+    margin: 0;
+}
+
+.flag-section p{
+    margin: 0 20px;
+}
+
+.flag-text{
+    flex-direction: column;
+}
+
+/* Match section end */
 
 /* Footer section start */
 
@@ -218,6 +299,16 @@ footer small {
         gap: 20px;
     }
 
+    .match-section{
+        flex-direction: column;
+    }
+
+    .match-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
     aside{
         background-color: #fff;
     }
@@ -282,6 +373,16 @@ footer small {
         gap: 20px;
     }
 
+    .match-section{
+        flex-direction: column;
+    }
+
+    .match-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
     aside{
         background-color: #fff;
         flex-direction: row;
@@ -309,6 +410,10 @@ footer small {
     
     footer ul li{
         margin: 10px 20px;
+    }
+
+    .view-btn{
+        display: block;
     }
 }
 
